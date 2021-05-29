@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.rtf file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	
+	<!-- Modifiers -->
+	<string name="modifier_label_spell">Spell</string>
+	<string name="modifier_label_spelldcast">Cast Def.</string>
+	
+</root>

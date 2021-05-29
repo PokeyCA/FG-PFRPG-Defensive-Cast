@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Please see the License.RTF file included with this distribution for attribution and copyright information. -->
+<root version="3.3" release="3">
+  <properties>
+    <name>Defensive Cast</name>
+    <version>1.0</version>
+    <author>DCrumb</author>
+    <description>Adds the ability to cast defensively</description>
+    <ruleset name="3.5E" />
+	<ruleset name="PFRPG" />
+	<loadorder>75</loadorder>
+  </properties>
+  <base>
+    
+    <!-- Strings -->
+	<includefile source="strings/strings_defensive_cast.xml" />
+	
+	<!-- Utility -->
+	<includefile source="utility/utility_modifiers_dc.xml" />
+	
+	<!-- Scripts -->
+	<script name="ActionSpellDC" file="scripts/manager_action_spell_dc.lua" />
+	
+  </base>
+</root>

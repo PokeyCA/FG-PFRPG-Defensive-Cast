@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.rtf file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<windowclass name="modifiers" merge="join">
+		<placement>
+			<size width="500" height="400" />
+		</placement>
+		<sizelimits>
+			<dynamic />
+			<minimum width="500" height="400" />
+		</sizelimits>
+		<playercontrol />
+		<nodelete />
+		<sheetdata>
+			
+			<!-- MODIFIER KEYS - SPELL -->
+			<label name="label_spell">
+				<bounds>30,290,175,20</bounds>
+				<static textres="modifier_label_spell" />
+				<color>000000</color>
+				<center />
+			</label>
+			<button_modifierkey name="SPELL_DCAST">
+				<bounds>35,315,75,20</bounds>
+				<textres>modifier_label_spelldcast</textres>
+			</button_modifierkey>
+			
+		</sheetdata>
+	</windowclass>
+</root>
